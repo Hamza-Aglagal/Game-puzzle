@@ -1,0 +1,51 @@
+
+/* start NavBar */
+
+.btns-nav * {
+    font-family: Kadwa;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+  }
+  
+.NavDropDown-User{
+    width: 4rem;
+    height: 3.5rem;
+    float:right; 
+    margin-left:-3.5rem;
+}
+
+.DropDown-User{
+    font-size: 25px;
+    color: white;
+    font-family: Inika;
+    background-color: #B4C8E3;
+    padding: 1rem;
+}
+.DropDown-User:hover{
+    color: #6096DB;
+    background-color: #B4C8E3;
+}
+
+  
+.NavDropDown-Admin{
+    width: 4rem;
+    height: 3.5rem;
+    float:right; 
+    margin-left:-3.5rem;
+}
+
+.DropDown-Admin{
+    font-size: 25px;
+    color: white;
+    font-family: Inika;
+    background-color: #B4C8E3;
+    text-align: left;
+    padding: 1rem 6rem 1rem 1em ;
+}
+.DropDown-Admin:hover{
+    color: #6096DB;
+    background-color: #B4C8E3;
+}
+
+  /* End NavBar */

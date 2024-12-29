@@ -1,0 +1,281 @@
+/* start first section */
+.HomePage {
+    background: linear-gradient(#552F70 10%, #E26EEC 30%, #542E6F, #022D69);
+
+}
+
+.HomePage .firstSection-pageHome {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url('./../../images/bg_home.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    clip-path: polygon(100% 0%, 100% 69.3%, 81.4% 97%, 69.4% 79%, 54.9% 94.8%, 41.2% 80%, 24.1% 99.5%, 0% 68.3%, 0% 0%);
+
+}
+
+.HomePage .firstSection-pageHome .content-firstSection {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15vh;
+    margin-bottom: 0px;
+}
+
+.HomePage .firstSection-pageHome .content-firstSection .playbtn_pagehome {
+    height: 250px;
+    width: 25%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.HomePage .firstSection-pageHome .content-firstSection .playbtn_pagehome p {
+    font-size: 35px;
+    font-family: 'Nothing You Could Do', cursive;
+    color: white;
+}
+
+.HomePage .firstSection-pageHome .content-firstSection .playbtn_pagehome p span {
+    font-family: Cormorant;
+}
+
+.HomePage .firstSection-pageHome .content-firstSection .playbtn_pagehome .btn {
+    height: 45px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 17px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.HomePage .firstSection-pageHome .content-firstSection .playbtn_pagehome .btn p {
+    font-size: 25px;
+    font-family: Inknut Antiqua;
+    font-weight: bold;
+    /* color: -webkit-linear-gradient(#04204A, #046FF6, #FFFFFF); */
+    background: -webkit-linear-gradient(#04204A, #046FF6, #FFFFFF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.HomePage .firstSection-pageHome .content-firstSection .mind img {
+    width: 400px;
+    animation-name: flo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flo {
+    50% {
+        transform: translateY(35px);
+    }
+}
+
+/* End first section */
+
+
+
+/* start Top Score */
+
+.TopScore {
+    width: 100%;
+    height: 70vh;
+    margin-top: 13vh;
+    display: grid;
+    place-items: center;
+}
+
+.TopScore .content-score {
+    width: 90%;
+    max-height: 70vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    place-items: center;
+}
+
+.TopScore .content-score .text p {
+    font-size: 55px;
+    font-family: 'Metal Mania', cursive;
+    color: #C1A3D6;
+}
+
+.TopScore .content-score .list-TopScores {
+    border: white solid 1px;
+    background-color: #DECFF685;
+    width: 50vh;
+    height: 60vh;
+    border-radius: 30px;
+    padding: 7px;
+    overflow-y: auto;
+    position: relative;
+
+}
+
+.TopScore .content-score .list-TopScores .TopScore-beforeLogin {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 37vh;
+    height: 150vh;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: #C1A3D6;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.TopScore .content-score .list-TopScores .TopScore-beforeLogin a {
+    margin-top: 25vh;
+    font-size: 25px;
+    font-family: Kadwa;
+    font-weight: bold;
+    text-align: center;
+    color: #8354A4;
+    position: sticky;
+    top: 11rem;
+}
+
+/* End Top Score */
+
+
+/* Start Top Scores Item */
+.TopScoreItem {
+    width: 100%;
+    height: 7vh;
+    border-bottom: solid 1px #5e5b6360;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.TopScoreItem div {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.TopScoreItem div * {
+    margin-right: 10px;
+}
+
+/* End Top Scores Item */
+
+
+/* start how to play */
+.HowToPlay {
+    width: 100%;
+    height: 70vh;
+    margin-top: 13vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.HowToPlay .text p {
+    font-size: 55px;
+    font-family: 'Metal Mania', cursive;
+    color: #C1A3D6;
+}
+
+.HowToPlay .video-HowToPlay video {
+    width: 500px;
+}
+
+/* End how to play */
+
+
+/* Start Game Screens */
+.GameScreens {
+    width: 100%;
+    height: 90vh;
+    margin-top: 13vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.GameScreens .text p {
+    font-size: 55px;
+    font-family: 'Metal Mania', cursive;
+    color: #C1A3D6;
+}
+
+.GameScreens .screens-Img {
+    width: 85%;
+    height: 75%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.GameScreens .screens-Img .SectionScreen {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.GameScreens .screens-Img .img {
+    width: 390px;
+    height: 170px;
+    background-color: #D9D9D9;
+    margin-top: 15px;
+}
+
+.GameScreens .screens-Img .img * {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* End Game Screens */
+
+
+
+
+/* Start Footer  */
+
+.Footer {
+    width: 100%;
+    height: 31vh;
+    background-color: #C28CC7;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Footer .circle-footer {
+    width: 70px;
+    height: 70px;
+
+    border-width: 4px;
+    border-style: solid;
+    /* border-image: linear-gradient(#04204A, #FFFFFF30, #046FF6) 1 30%; */
+
+    border-radius: 50%;
+    color: #022D69;
+    display: grid;
+    place-items: center;
+    background-color: initial;
+}
+
+.Footer .circle-footer .icons-footer {
+    font-size: 50px;
+    color: #022D69;
+}
+
+/* End Footer  */

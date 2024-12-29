@@ -1,0 +1,70 @@
+
+.levelPage{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#583071, #a24aaae5);
+
+}
+
+.levelPage .Content{
+    width: 100%;
+    height: 84.3%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.levelPage .Content .Levels{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.levelPage .Content .Prev-Next{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 5rem ;
+}
+.levelPage .Content .Prev-Next a{
+    font-size: 23px;
+    font-family: 'Inknut Antiqua', serif;
+    color: #D9C2D1;
+}
+.levelPage .Content .Prev-Next a .icon{
+    color: #583071;
+    font-size: 23px;
+}
+.levelPage .Content .Prev-Next a:hover{
+    color: #fff;
+    text-shadow: 0.5rem .5rem .75rem #ffff;
+}
+
+/* start Level Card */
+.Card-Level{
+    width: 130px;
+    height: 65px;
+    background-color: #E0B4FF;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    text-decoration: none;
+}
+.Card-Level p{
+    width: 55px;
+    font-family: 'Metrophobic', sans-serif;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 9px;
+}
+/* End Level Card */

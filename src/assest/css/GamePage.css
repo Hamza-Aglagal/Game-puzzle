@@ -1,0 +1,111 @@
+.GamePage {
+    width: 100%;
+    height: 100vh;
+    background-color: #A24AAA;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.GamePage .sectionTop-game {
+    /* border: white solid 1px; */
+    width: 60%;
+    height: 15vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: white;
+    font-size: 25px;
+    font-family: 'Mirza', cursive;
+    position: relative;
+}
+
+.GamePage .sectionTop-game div {
+    position: absolute;
+    left: 26%;
+    width: 400px;
+    height: 100px;
+    background-color: #d9d9d981;
+    clip-path: polygon(39.2% 0.5%, 50.5% 0%, 61% 100%, 29.4% 100%);
+}
+
+/* -------------------- */
+
+.GamePage .sectionCenter-game {
+    width: 80%;
+    height: 75vh;
+    background-color: #d9d9d981;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.GamePage .sectionCenter-game .ContainerCars {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    min-height: 60%;
+
+}
+
+/* ------------------------------ */
+
+
+.GamePage .design-game-1 {
+    background-color: rgba(255, 255, 255, 0.418);
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    right: 0;
+    top: 20%;
+    background-color: #d9d9d981;
+    clip-path: polygon(100% 23%, 100% 0%, 45% 37.8%, 45% 100%);
+
+
+}
+
+.GamePage .design-game-2 {
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 20%;
+    background-color: #d9d9d981;
+    clip-path: polygon(0% 23%, 0% 0%, 55% 37.8%, 55% 100%);
+
+}
+
+.GamePage .sectionBottom-game {
+    width: 100%;
+    height: 10vh;
+}
+
+.GamePage .sectionBottom-game a {
+    color: #D9C2D1;
+    font-size: 23px;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+.GamePage .sectionBottom-game a:hover {
+    color: #fff;
+    text-shadow: 0.5rem .5rem .75rem #ffff;
+}
+
+/* start Card Game */
+
+.CardGame {
+    width: 7rem;
+    height: 7rem;
+    background-color: #D9C2D1;
+    margin: .5rem;
+    display: grid;
+    place-items: center;
+}
+.CardGame img{
+    width: 100%;
+}
